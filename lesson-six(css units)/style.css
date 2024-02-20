@@ -1,0 +1,56 @@
+.box {
+    background-color: goldenrod;
+
+    height: 200px;
+    width: 400px;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.box > p {
+    font-size: 20px;
+}
+
+.statement {
+    font-size: 30px;
+}
+
+.boxTwo{
+    background-color: darksalmon;
+    height: 12.5rem;
+    width: 25rem;
+    padding: 0.125rem;
+    font-size: 1rem;
+}
+
+.boxThree {
+    background-color: chocolate;
+    height: 12.5em;
+    width: 25em;
+    padding: 0.125em;
+    font-size: 1em;
+}
+
+.boxFour {
+    background-color: darkolivegreen;
+    height: 70vh;
+    width: 70vw;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.boxFive {
+    background-color: indianred;
+    height: 200px;
+    width: 400px;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.per {
+    background-color: aquamarine;
+    color: black;
+    height: 70%;
+    width: 70%;
+    font-size: 12px;
+}

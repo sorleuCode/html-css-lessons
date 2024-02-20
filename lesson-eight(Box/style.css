@@ -1,0 +1,58 @@
+/* Padding */
+
+.box {
+    height: 80px;
+    width: 750px;
+    /***** single padding for all *****/
+
+    /* padding: 4px; */
+    /**** padding different sides on a single line *****/
+     
+    /* padding: 14px 20px 26px 34px; */
+
+    /* ******Double padding for y axis and x axis*** */
+
+    /* padding: 14px 24px; */
+
+    /* ****padding for each side separately**** */
+
+
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    background-color: bisque;
+    color: black;
+}
+
+.container {
+    height: 300px;
+    width: 750px;
+    border: black solid 5px;
+    background-color: aqua;
+    /* border-radius: 10px 20px 30px 50px;
+    border-radius: 20px;
+    border-radius: 10px  50px; */
+
+    border-top-right-radius: ;
+    border-bottom-left-radius: ;
+    border-bottom-right-radius: ;
+    border-top-left-radius: ;
+
+}
+
+.container > div {
+    width: 45px;
+    height: 45px;
+    margin: 20px;
+    border: pink solid;
+}
+.boxOne {
+    background-color: brown;
+}
+.boxTwo {
+    background-color: black;
+}
+.boxThree {
+    background-color: chocolate;
+}

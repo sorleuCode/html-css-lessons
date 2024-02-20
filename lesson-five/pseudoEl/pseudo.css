@@ -1,0 +1,41 @@
+/* unvisited link */
+a {
+    color: blue;
+}
+
+/* visited link */
+
+a:visited {
+    color: yellow;
+}
+/* Mouse over link */
+
+a:hover{
+    color: hotpink;
+}
+
+/* selected link */
+
+a:active {
+    color: aliceblue;
+}
+
+p{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+    text-transform: capitalize;
+}
+p::first-letter {
+    font-size: 20px;
+    color: green;
+}
+
+p::first-line{
+    color: gold;
+    font-variant: small-caps;
+}
+
+div:hover p{
+    display: block;
+}

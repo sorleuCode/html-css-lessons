@@ -1,0 +1,49 @@
+:root {
+
+    /* color */
+    --color-success: #80ed99;
+    --color-danger: #a4161a;
+    --smallBox-color: #eeba0b;
+    --box-color: #ddb892;
+    --text-color: bisque;
+
+
+    /* padding */
+
+    --smallBox-pd: 7px;
+    --box-pd: 10px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-color);
+}
+
+.box {
+    background-color: var(--box-color);
+    padding: var(--box-pd);
+    height: 100vh;
+    width: 90vw;
+    margin: 10px auto;
+
+}
+
+.smallBox {
+    background-color: var(--smallBox-color);
+    padding: var(--smallBox-pd);
+    width: 50vw;
+    height: 50vh;
+}
+.red {
+    background-color: var(--color-danger);
+}
+.green {
+    background-color: var(--color-success);
+}
+

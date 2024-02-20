@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    background-image: url(e767001c-ad50-42fb-95d1-3f72cccc0524.jpeg);
+    background-repeat: repeat;
+}
+
+.boxOne {
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+}
+
+.boxTwo {
+    background-image:url(/images/pexels-liudmyla-shalimova-19859154.jpg) ;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.boxThree {
+    background-image: url(images/neom-9uL7tKuVAq0-unsplash.jpg);
+    background-attachment: fixed;
+    height: 700px;
+    width: auto;
+}

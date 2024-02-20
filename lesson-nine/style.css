@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: brown; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    max-width: 800px;
+    min-height: 400px;
+
+}
+
+.box {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #000;
+    font-size: 2rem;
+    padding: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}

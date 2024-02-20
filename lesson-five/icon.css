@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    color: #0000;
+    font-size: 20px;
+    font-weight: 900;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+/* .two p:nth-child(2){
+    color: aqua;
+} */
+
+/* selecting elements by their name */
+
+/* div{
+    background: #000;
+    font-size: 12px;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+} */
+
+/* selecting elements by their id */
+
+/* #para1, #para2, #facebook{
+    text-align: center;
+    color: red;
+
+} */
+
+/* slecting Elements by their class */
+
+.one{
+    text-align: center;
+    color: green;
+}
+
+/* a {
+    text-decoration: none;
+}
+
+
+a:link {
+    color: brown;
+} */
+
+/* .two {
+    background-color: brown;
+} */

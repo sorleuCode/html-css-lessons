@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outerContainer {
+    border: 3px dashed #000;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+
+}
+
+.innerContainer {
+    border: 2px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    
+}
+.absolute {
+    background-color: blue;
+    position: absolute;
+    left:  0;
+    top: 0;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.sticky {
+
+    background-color: blueviolet;
+    position: sticky;
+    top: 100px;
+}
+.Box {
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+    color: white;   
+}
+
+/* Example 2 */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+}
+
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+header, footer {
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    font-size: 3rem;
+}
+
+a:visited {
+    color: #fff;
+}
+
+.social {
+    background-color: royalblue;
+    position: fixed;
+    top: 150px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius:  50px;
+}
+
